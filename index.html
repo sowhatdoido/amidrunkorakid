@@ -96,7 +96,7 @@
                 getPosts();
                 return;
             }
-            var post = stack.pop();
+            var post = stack.shift();
             
             currentId = post.id;
             $('#question').html(post.title);
