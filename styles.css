@@ -1,0 +1,48 @@
+html, body {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    margin-bottom: 50px;
+}
+#game {
+    padding: 25px 15px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#explain {
+    margin-bottom: 25px;
+}
+#explain-wrapper {
+    display: none;
+}
+#explain-wrapper.show,
+#results-wrapper.show {
+    display: block;
+}
+#results-wrapper {
+    max-width: 400px;
+    width: 100%;
+    display: none;
+    margin: 10px auto 25px;
+    position: relative;
+    border: 1px solid lightgray;
+}
+#results {
+    width: 60%;
+    height: 100%;
+    background: #33C3F0;
+    position: absolute;
+}
+#results-wrapper span {
+    position: relative;
+}
+#footer {
+    font-size: 10px;
+    margin-top: 100px;
+}
