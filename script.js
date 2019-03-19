@@ -69,5 +69,3 @@ var nextPost = function(){
 }
 
 getPosts();
-
-// Checking frequently updated cdn
