@@ -69,3 +69,4 @@ var nextPost = function(){
 }
 
 getPosts();
+
