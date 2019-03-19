@@ -70,3 +70,4 @@ var nextPost = function(){
 
 getPosts();
 
+// Adding Comment
